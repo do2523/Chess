@@ -22,5 +22,8 @@ public class Main {
         windowFrame.setLocationRelativeTo(null);
         // To see the window
         windowFrame.setVisible(true);
+
+        // run the main game loop
+        gs.launchGame();
     }
 }
